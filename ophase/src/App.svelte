@@ -1,6 +1,6 @@
 <script lang="ts">
-    import Header from "./lib/app/Header.svelte";
     import Home from "./lib/home/@Home.svelte";
+    import NotFound from "./lib/notFound/@NotFound.svelte";
     import { Route, Router } from "svelte-navigator";
     import { darkMode } from "./stores";
 
@@ -14,10 +14,30 @@
 </script>
 
 <main class="dark:bg-backgroundDark-500 w-full min-h-screen">
-    <Header />
-    <Router>
+    <Router primary={false}>
         <Route path="/">
             <Home />
         </Route>
+        <Route path="/about">
+            <Home />
+        </Route>
+        <Route path="/contact">
+            <Home />
+        </Route>
+        <Route path="/links">
+            <Home />
+        </Route>
+        <Route path="">
+            <NotFound />
+        </Route>
     </Router>
 </main>
+
+<style global>
+    a {
+        @apply text-grasshopperGreen-500;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>

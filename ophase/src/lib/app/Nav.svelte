@@ -1,3 +1,31 @@
+<script lang="ts">
+    import { Link } from "svelte-navigator";
+
+    export let active: string;
+
+    const LINKS = {
+        "/home": "Home",
+        "/about": "Über uns",
+        "/contact": "Kontakt",
+        "/links": "Links",
+    };
+</script>
+
 <div class="text-lg">
-    HOME
+    {#each Object.entries(LINKS) as [link, name], i}
+        {#if active !== link}
+            <Link to={link}>
+                <span class="mx-1">
+                    {name}
+                </span>
+            </Link>
+        {:else}
+            <span class="mx-1 text-white cursor-default">
+                {name}
+            </span>
+        {/if}
+        {#if i !== Object.keys(LINKS).length - 1}
+            <span class="mx-1">|</span>
+        {/if}
+    {/each}
 </div>

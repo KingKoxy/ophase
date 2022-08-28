@@ -4,10 +4,14 @@
 
     import { darkMode } from "../../stores";
     import { get } from "svelte/store";
+
+    export let active: string;
 </script>
 
 <div class="fixed w-full flex">
-    <div class="bg-grasshopperGreen-700 p-3 rounded-br-xl w-[250px] h-[120px] object-cover">
+    <div
+        class="bg-grasshopperGreen-700 p-3 rounded-br-xl w-[250px] h-[120px] object-cover z-20 shadow-lg shadow-black/30"
+    >
         <img
             src="images/logo.png"
             class="object-contain w-full h-full"
@@ -16,16 +20,16 @@
     </div>
     <div class="flex-grow">
         <div
-            class="h-[50%] flex justify-between items-center p-4 bg-grasshopperGreen-500"
+            class="h-[50%] flex justify-between items-center p-4 bg-grasshopperGreen-500 shadow-lg shadow-black/30 z-10"
         >
-            <Nav />
+            <Nav {active} />
             <div
                 class="flex items-center"
                 on:click={() => {
                     darkMode.set(!get(darkMode));
                 }}
             >
-                {#if $darkMode}
+                {#if !$darkMode}
                     <MoonIcon />
                 {:else}
                     <SunIcon />
@@ -34,4 +38,4 @@
         </div>
     </div>
 </div>
-<div class="h-[120px]"></div>
+<div class="h-[120px]" />
