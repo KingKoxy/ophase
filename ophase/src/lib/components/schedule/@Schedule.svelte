@@ -8,7 +8,7 @@ import Headline from "../app/Headline.svelte";
 
 <PageBase location="/schedule">
     <Headline>Wochenplan</Headline>
-    <div class="mx-10 mt-5">
+    <div class="md:mx-10 mt-5">
         {#each SCHEDULE as day}
             <DayItem {day} />
         {/each}

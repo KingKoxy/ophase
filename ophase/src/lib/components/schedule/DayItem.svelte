@@ -7,13 +7,13 @@
 <div class="text-lg mb-3 font-semibold">{day.name}</div>
 <div class="border-gray-500 border-2 border-b-0 mb-10">
     {#each day.events as event}
-        <div class="border-gray-500 border-b-2 grid grid-cols-12">
+        <div class="border-gray-500 border-b-2 flex">
             <div
-                class="col-span-1 flex justify-center items-center p-3 border-gray-500 border-r-2"
+                class="w-[64px] flex justify-center items-center p-3 border-gray-500 border-r-2"
             >
                 {event.start}
             </div>
-            <div class="col-span-10 p-3 text-sm">
+            <div class="flex-grow p-3 text-sm">
                 <div class="text-base">{event.title}</div>
                 {#if event.locationLink}
                 <div class="text-grasshopperGreen-500">

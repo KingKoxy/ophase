@@ -17,7 +17,8 @@ export const SCHEDULE: IDay[] = [
             {
                 title: "Begrüßung",
                 start: "11:00",
-                location: "<TBD>",
+                location: "Forum",
+                locationLink: "https://goo.gl/maps/p1acZ4q91mgADVSm7"
             },
             {
                 title: "Essen im Oxford",
@@ -28,12 +29,14 @@ export const SCHEDULE: IDay[] = [
             {
                 title: "Campusführung",
                 start: "15:00",
-                location: "<TBD>",
+                location: "Ehrenhof",
+                locationLink: "https://goo.gl/maps/cGoupo9He7cUk47t5"
             },
             {
                 title: "Fachschaftsgrillen",
                 start: "18:00",
-                location: "<TBD>",
+                location: "Infobau",
+                locationLink: "https://goo.gl/maps/WAGkze3PejKyFGik8"
             },
             {
                 title: "Cocktails und Cranker Techno in der K2 Bar",
@@ -49,7 +52,7 @@ export const SCHEDULE: IDay[] = [
             {
                 title: "KIT-Karten abholen",
                 start: "11:00",
-                location: "<TBD>",
+                location: "Steinsitzplätze vor <TBD>",
             },
             {
                 title: "[kœri]-Frühstück in der Mensa",
@@ -77,7 +80,7 @@ export const SCHEDULE: IDay[] = [
         ],
     },
     {
-        name: "Mittwoch🐸",
+        name: "Mittwoch 🐸",
         events: [
             {
                 title: "O-Rallye",
@@ -121,22 +124,26 @@ export const SCHEDULE: IDay[] = [
             {
                 title: "AKK- und AStA-Führung mit Brezeln",
                 start: "14:00",
-                location: "<TBD>",
+                location: "Vor dem AKK",
+                locationLink: "https://goo.gl/maps/vuccuMutMBZgcGKH6"
             },
             {
                 title: "Studienberatung",
                 start: "16:00",
-                location: "<TBD>",
+                location: "Infobau (Raum <TBD>)",
+                locationLink: "https://goo.gl/maps/WAGkze3PejKyFGik8"
             },
             {
                 title: "Bierpongtunier",
                 start: "17:00",
-                location: "<TBD>",
+                location: "Infobau",
+                locationLink: "https://goo.gl/maps/WAGkze3PejKyFGik8"
             },
             {
-                title: "Kalte Platte mit Abtin",
+                title: "Kalte Platte mit Apthin",
                 start: "20:00",
-                location: "<TBD>",
+                location: "Infobau (Raum <TBD>)",
+                locationLink: "https://goo.gl/maps/WAGkze3PejKyFGik8"
             },
             {
                 title: "DonnerstAGO",
@@ -164,7 +171,7 @@ export const SCHEDULE: IDay[] = [
                 title: "Kneipentour",
                 start: "20:00",
                 location: "Garten in Daxlanden",
-                //TODO: locationLink
+                locationLink: "https://goo.gl/maps/R31CFS7PvU78JaAJ6"
             },
         ]
     },
@@ -174,7 +181,8 @@ export const SCHEDULE: IDay[] = [
             {
                 title: "Mädelsbrunch",
                 start: "10:00",
-                location: "<TBD>",
+                location: "Mathebau UG",
+                locationLink: "https://goo.gl/maps/9MLH8ZhSpo65517P6"
             },
             {
                 title: "Utopia Brunch",

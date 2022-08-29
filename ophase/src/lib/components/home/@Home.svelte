@@ -1,7 +1,6 @@
 <script lang="ts">
     import Headline from "../app/Headline.svelte";
     import PageBase from "../app/PageBase.svelte";
-    let videoWidth;
     const videos: { title: string; url: string }[] = [
         {
             title: "O-Phasenvideo 2020",
@@ -25,8 +24,8 @@
 <PageBase location="/">
     <section class="mb-10">
         <Headline>Willkommen</Headline>
-        <div class="flex">
-            <div class="inline-block mr-8 text-justify">
+        <div class="md:flex ">
+            <div class="inline-block md:mr-8 text-justify lg:mb-0 mb-5">
                 Da du das hier liest, heißt das wohl, dass du bald anfängst,
                 Informatik oder Mathe am KIT zu studieren. Bei uns in Karlsruhe
                 beginnt das Studium immer mit einer Woche ohne Vorlesungen, der
@@ -47,7 +46,7 @@
             <img
                 src="images/Bild_Gruppenfoto2.jpg"
                 alt="Gruppenfoto"
-                class="inline-block h-[300px]"
+                class="inline-block md:h-[300px]"
             />
         </div>
     </section>
@@ -55,16 +54,16 @@
         <Headline>O-Phasenvideos</Headline>
         <div class="flex flex-col items-center">
             {#each videos as video}
-                <iframe
-                    class="mb-10"
-                    width="960"
-                    height="540"
-                    src={video.url}
-                    title={video.title}
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                />
+                <div class="relative overflow-hidden w-full pt-[56.25%] mb-10">
+                    <iframe
+                        class="absolute top-0 left-0 bottom-0 right-0 w-full h-full z-0"
+                        src={video.url}
+                        title={video.title}
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    />
+                </div>
             {/each}
         </div>
     </section>

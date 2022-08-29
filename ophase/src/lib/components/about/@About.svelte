@@ -6,8 +6,8 @@
 <PageBase location="/about">
     <section class="mb-10">
         <Headline>In der O-Phase</Headline>
-        <div class="flex">
-            <div class="inline-block mr-8 text-justify">
+        <div class="md:flex">
+            <div class="inline-block md:mr-8 text-justify md:mb-0 mb-5">
                 Neben Freibier ;) (Nur solange der Vorrat reicht) bringt unsere
                 Gruppe seit acht Jahren erfolgreich die elektronische
                 Feierkultur in die O-Phase. Dazu gehören Techno-Partys wie
@@ -27,7 +27,7 @@
             <img
                 src="images/Bild_Akk_Party.jpg"
                 alt="Gruppenfoto"
-                class="inline-block h-[300px]"
+                class="inline-block md:h-[300px]"
             />
         </div>
     </section>
@@ -38,7 +38,7 @@
                 <img
                     src="images/Bild_Wandern_vorerst.jpg"
                     alt="Gruppenfoto"
-                    class="float-right h-[260px] ml-4"
+                    class="md:float-right md:h-[260px] md:ml-4 md:mb-0 mb-5 w-full md:w-auto"
                 />
                 Wir sind sehr stolz darauf als eine der einzigen O-Phasengruppen
                 uns nicht nur auf die O-Phase zu beschränken. Unsere Gruppe bietet

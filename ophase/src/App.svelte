@@ -1,5 +1,6 @@
 <script lang="ts">
-    import { Route, Router } from "svelte-navigator";
+    import { Route, Router } from "svelte-routing";
+
     import Schedule from "./lib/components/schedule/@Schedule.svelte";
     import About from "./lib/components/about/@About.svelte";
     import Links from "./lib/components/links/@Links.svelte";
@@ -17,7 +18,7 @@
 </script>
 
 <main class="dark:bg-backgroundDark-500 w-full min-h-screen">
-    <Router primary={false}>
+    <Router>
         <Route path="/">
             <Home />
         </Route>
@@ -39,11 +40,16 @@
     </Router>
 </main>
 
+<!-- TODO: evtl reset scroll bei link, responsiveness -->
 <style global>
     a {
         @apply text-grasshopperGreen-500;
     }
     a:hover {
         text-decoration: underline;
+    }
+
+    .link > :global(a:hover) {
+        text-decoration: none;
     }
 </style>
