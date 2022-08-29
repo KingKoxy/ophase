@@ -1,8 +1,10 @@
 <script lang="ts">
-    import Home from "./lib/home/@Home.svelte";
-    import NotFound from "./lib/notFound/@NotFound.svelte";
     import { Route, Router } from "svelte-navigator";
-    import { darkMode } from "./stores";
+    import Schedule from "./lib/components/schedule/@Schedule.svelte";
+    import About from "./lib/components/about/@About.svelte";
+    import Home from "./lib/components/home/@Home.svelte";
+    import NotFound from "./lib/components/notFound/@NotFound.svelte";
+    import { darkMode } from "./lib/services/stores";
 
     if (window.matchMedia("(prefers-color-scheme: dark)").matches)
         darkMode.set(true);
@@ -18,12 +20,15 @@
         <Route path="/">
             <Home />
         </Route>
+        <Route path="/schedule">
+            <Schedule />
+        </Route>
         <Route path="/about">
-            <Home />
+            <About />
         </Route>
-        <Route path="/contact">
+        <!-- <Route path="/contact">
             <Home />
-        </Route>
+        </Route> -->
         <Route path="/links">
             <Home />
         </Route>

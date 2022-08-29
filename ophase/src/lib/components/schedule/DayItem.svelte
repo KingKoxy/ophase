@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { IDay } from "src/schedule";
+    import type { IDay } from "src/lib/services/schedule";
 
     export let day: IDay;
 </script>
@@ -13,11 +13,15 @@
             >
                 {event.start}
             </div>
-            <div class="col-span-10 p-3">
-                <div class="">{event.title}</div>
+            <div class="col-span-10 p-3 text-sm">
+                <div class="text-base">{event.title}</div>
+                {#if event.locationLink}
                 <div class="text-grasshopperGreen-500">
                     <a href={event.locationLink}>{event.location}</a>
                 </div>
+                {:else}
+                    <p>{event.location}</p>
+                {/if}
             </div>
         </div>
     {/each}
