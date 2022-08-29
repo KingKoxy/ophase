@@ -9,7 +9,7 @@
         <div class="flex">
             <div class="inline-block mr-8 text-justify">
                 Neben Freibier ;) (Nur solange der Vorrat reicht) bringt unsere
-                Gruppe seit fünf Jahren erfolgreich die elektronische
+                Gruppe seit acht Jahren erfolgreich die elektronische
                 Feierkultur in die O-Phase. Dazu gehören Techno-Partys wie
                 Raves. Aber auch für nicht-Raver haben wir ein ausgefeiltes
                 Programm im Angebot. Mit uns kann man nämlich nicht nur Feiern,
@@ -45,24 +45,20 @@
                 dir einen breit gefächerten Freundeskreis in dem man sich hilft und
                 unterstützt, sei es für die Uni oder Privates. Gemeinsam organisieren
                 wir auch unter dem Semester regelmäßig Events, wie Partys oder Raves,
-                Wanderungen und Urlaube. Auch wenn hier natürlich ebenfalls gilt,
-                dass die ganz großen Partys fürs erste leider ausfallen müssen, wird
-                man sich bestimmt in sehr naher Zukunft auf der ein oder anderen
-                Mini-WG-Party sehen ;). Wer sich hier besonders engagieren möchte,
+                Wanderungen und Urlaube. Wer sich hier besonders engagieren möchte,
                 kann das auch in unserer Hochschulgruppe, welche zum Beispiel den
                 halbjährigen Rave (Glühwein- oder Frühlingsrave) am AKK organisiert,
                 bei dem wir das letze Mal über 2000 Besucher hatten. Es findet sich
-                aber auch immer eine gute Gruppe um auf andere Partys oder Festivals
+                aber auch immer eine gute Gruppe, um auf andere Partys oder Festivals
                 zu gehen, nicht nur (wenn auch hauptsächlich) im elektronischen Bereich.
                 Zusätzlich dazu gibt es viele Teilgruppen unserer Gemeinschaft die
                 regelmäßig Zusammenkünfte organisieren, wie den Lesekreis, in dem
                 Texte aller Art gelesen und anschließlich diskutiert werden, oder
                 den Utopia-Brunch, bei dem wir für einige Stunden der Welt entkommen,
-                unser Essen teilen und einfach wir selbst sind. Montags ist traditionell
-                immer unser Stammtischabend in der Walhornbar und auch wenn dieser
-                momentan pausieren muss, sind wir bei gutem Wetter regelmäßig im
-                Fasanengarten aufzufinden und gut zu erkennen an lauten Bässen, die
-                wir quer durch den Park wummern lassern.
+                unser Essen teilen und einfach wir selbst sind. Jeden Mittwoch ist
+                außerdem Barabend in der K2 Bar und bei gutem Wetter sind wir regelmäßig
+                im Fasanengarten aufzufinden und gut zu erkennen an lauten Bässen,
+                die wir quer durch den Park wummern lassern.
                 <br /><br />
                 Wenn du also jemanden suchst, mit dem du lernen, feiern oder auch
                 einfach nur ein (oder zehn) gemütliche(s) Bier trinken kannst, dann

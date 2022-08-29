@@ -2,6 +2,7 @@
     import { Route, Router } from "svelte-navigator";
     import Schedule from "./lib/components/schedule/@Schedule.svelte";
     import About from "./lib/components/about/@About.svelte";
+    import Links from "./lib/components/links/@Links.svelte";
     import Home from "./lib/components/home/@Home.svelte";
     import NotFound from "./lib/components/notFound/@NotFound.svelte";
     import { darkMode } from "./lib/services/stores";
@@ -30,7 +31,7 @@
             <Home />
         </Route> -->
         <Route path="/links">
-            <Home />
+            <Links />
         </Route>
         <Route path="">
             <NotFound />
