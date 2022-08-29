@@ -89,9 +89,9 @@
             </li>
             <li>
                 <a href="https://www.fsmi.uni-karlsruhe.de/">Fachschaftsseite</a
-                >
+                > - Hier lassen sich u.a. Klausuren ausdrucken
             </li>
-            - Hier lassen sich u.a. Klausuren ausdrucken
+        
             <li>
                 <a href="https://www.fsmi.uni-karlsruhe.de/odie/web/">Odie</a> -
                 Hier findest du eine große Sammlung an Altklausuren
@@ -172,7 +172,7 @@
                 <a
                     href="https://play.google.com/store/apps/details?id=com.kingkoxy.hopfentorpedo&hl=de"
                     >Hopfentropfen</a
-                > - ein tolles Trinkspiel (unbedingt ausprobieren!!)
+                > - ein tolles Trinkspiel (unbedingt ausprobieren!)
             </li>
         </ul>
     </section>
