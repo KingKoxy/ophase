@@ -14,6 +14,12 @@
         "/links": "Links",
     };
 
+    console.log(
+        Object.entries(LINKS).filter(([url, name]) => {
+            return url !== active;
+        })
+    );
+
     let showMenu = false;
 </script>
 
@@ -65,7 +71,9 @@
             class="bg-grasshopperGreen-700 shadow-xl shadow-black/20 absolute w-[180px] p-4 py-2 flex flex-col mt-2 rounded-md "
             style="transform: translateX(-25%);"
         >
-            {#each Object.entries(LINKS) as [url, name], i}
+            {#each Object.entries(LINKS).filter(([url, name]) => {
+                return url !== active;
+            }) as [url, name], i}
                 {#if active !== url}
                     <a
                         href={url}
@@ -74,8 +82,8 @@
                     >
                         {name} >
                     </a>
-                    {#if i !== Object.keys(LINKS).length - 1}
-                        <hr class="text-gray-400"/>
+                    {#if i !== Object.keys(LINKS).length - 2}
+                    <hr class="text-gray-400" />
                     {/if}
                 {/if}
             {/each}
