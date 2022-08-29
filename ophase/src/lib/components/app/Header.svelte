@@ -50,4 +50,4 @@
         </div>
     </header>
 </div>
-<div class="md:h-[{headerHeight}px] h-[{headerHeight/2}px]" />
+<div class="h-[{headerHeight}px]" />
