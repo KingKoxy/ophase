@@ -53,6 +53,7 @@ export const SCHEDULE: IDay[] = [
                 title: "KIT-Karten abholen",
                 start: "11:00",
                 location: "Steinbänke vor der Mensa am Adenauerring",
+                locationLink: "https://goo.gl/maps/swf8abqRc8jUmEWz8",
             },
             {
                 title: "[kœri]-Frühstück in der Mensa",
@@ -64,6 +65,7 @@ export const SCHEDULE: IDay[] = [
                 title: "FBIs",
                 start: "14:00",
                 location: "Steinbänke vor der Mensa am Adenauerring",
+                locationLink: "https://goo.gl/maps/swf8abqRc8jUmEWz8",
             },
             {
                 title: "O-Rave mit Grillen und Kürbissuppe",
