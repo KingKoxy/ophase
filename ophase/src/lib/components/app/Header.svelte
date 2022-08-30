@@ -12,22 +12,24 @@
 
 <div class="fixed w-full flex z-50" bind:clientHeight={headerHeight}>
     <div
-        class="md:block hidden bg-grasshopperGreen-700 p-5 rounded-br-xl w-[280px] h-[140px] object-cover z-20 shadow-lg shadow-black/30"
+        class="md:block hidden bg-grasshopperGreen-700 p-2 rounded-br-xl w-[280px] h-[140px] object-cover z-20 shadow-lg shadow-black/30"
     >
         <img
-            src="images/logo.png"
+            src="images/logo.svg"
+            type="image/svg+xml"
             class="object-contain w-full h-full"
             alt="HIGHtech O-Phasen Logo"
         />
     </div>
     <header class="flex-grow">
         <div
-            class="h-[70px] lg:h-[50%] flex justify-between items-center p-4 bg-grasshopperGreen-500 shadow-lg shadow-black/30 z-10"
+            class="h-[70px] lg:h-[50%] flex justify-between items-center p-2 pr-5 bg-grasshopperGreen-500 shadow-lg shadow-black/30 z-10"
         >
             <div class="h-full flex items-center">
                 <div class="md:hidden h-full mr-3">
                     <img
-                        src="images/logo.png"
+                        src="images/logo.svg"
+                        type="image/svg+xml"
                         class="object-contain h-full"
                         alt="HIGHtech O-Phasen Logo"
                     />

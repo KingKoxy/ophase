@@ -25,7 +25,7 @@
                 uns zu:
             </div>
             <img
-                src="images/Bild_Akk_Party.jpg"
+                src="images/akk_rave_2022.jpg"
                 alt="Gruppenfoto"
                 class="inline-block md:h-[300px]"
             />
