@@ -57,9 +57,9 @@
     </section>
     <section>
         <Headline>O-Phasenvideos</Headline>
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center max-w-[800px]">
             {#each videos as video}
-                <div class="relative overflow-hidden w-full pt-[56.25%] mb-10">
+                <div class="relative overflow-hidden w-full pt-[56.25%] mb-10 ">
                     <iframe
                         class="absolute top-0 left-0 bottom-0 right-0 w-full h-full z-0"
                         src={video.url}

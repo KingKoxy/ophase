@@ -91,7 +91,7 @@
                 <a href="https://www.fsmi.uni-karlsruhe.de/">Fachschaftsseite</a
                 > - Hier lassen sich u.a. Klausuren ausdrucken
             </li>
-        
+
             <li>
                 <a href="https://www.fsmi.uni-karlsruhe.de/odie/web/">Odie</a> -
                 Hier findest du eine große Sammlung an Altklausuren
@@ -180,16 +180,13 @@
 
 <style>
     a {
-        @apply text-grasshopperGreen-500;
+        @apply text-grasshopperGreen-500 transition-all duration-200;
     }
     a:hover {
-        @apply text-grasshopperGreen-700;
-        @apply no-underline;
-        @apply font-semibold;
+        @apply text-grasshopperGreen-700 no-underline font-semibold;
     }
 
     li {
-        @apply mb-1;
-        @apply list-square;
+        @apply mb-1 list-square;
     }
 </style>

@@ -17,7 +17,7 @@
         : document.documentElement.classList.remove("dark");
 </script>
 
-<main class="dark:bg-backgroundDark-500 w-full min-h-screen">
+<main class="dark:bg-backgroundDark-500 w-full min-h-screen transition-all duration-200">
     <Router>
         <Route path="/">
             <Home />

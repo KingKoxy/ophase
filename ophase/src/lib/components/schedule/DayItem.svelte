@@ -17,7 +17,7 @@
                 <div class="text-base">{event.title}</div>
                 {#if event.locationLink}
                 <div class="text-grasshopperGreen-500">
-                    <a href={event.locationLink}>{event.location}</a>
+                    <a href={event.locationLink} class="hover:no-underline animate-underline relative">{event.location}</a>
                 </div>
                 {:else}
                     <p>{event.location}</p>
@@ -26,3 +26,12 @@
         </div>
     {/each}
 </div>
+<style>
+    .animate-underline::after{
+        content: "";
+        @apply bg-grasshopperGreen-500 absolute transition-all duration-150 h-px w-0 left-0 bottom-0;
+    }
+    .animate-underline:hover::after{
+        @apply w-full;
+    }
+</style>

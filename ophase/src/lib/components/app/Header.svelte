@@ -2,7 +2,7 @@
     import { MoonIcon, SunIcon } from "svelte-feather-icons";
     import { get } from "svelte/store";
 
-    import Nav from "./Nav.svelte";
+    import Nav from "./TopNav.svelte";
     import { darkMode } from "../../services/stores";
 
     export let location: string;
