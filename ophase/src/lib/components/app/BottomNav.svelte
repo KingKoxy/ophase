@@ -39,4 +39,4 @@ bind:clientHeight={navHeight}
         </a>
     {/each}
 </div>
-<div class="h-[{navHeight}px]"></div>
+<div style:height={`${navHeight}px`} />

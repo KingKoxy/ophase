@@ -50,4 +50,4 @@
         </div>
     </header>
 </div>
-<div class="h-[{headerHeight}px]" />
+<div style:height={`${headerHeight}px`} />
