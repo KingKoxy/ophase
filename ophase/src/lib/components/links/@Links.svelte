@@ -166,7 +166,7 @@
         </ul>
     </section>
     <section class="mb-5">
-        <h2 class="text-xl font-semibold mb-2">Weiter Links:</h2>
+        <h2 class="text-xl font-semibold mb-2">Weitere Links:</h2>
         <ul class="ml-4 mt-2">
             <li>
                 <a
