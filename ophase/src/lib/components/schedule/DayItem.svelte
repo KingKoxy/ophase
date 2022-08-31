@@ -27,11 +27,4 @@
     {/each}
 </div>
 <style>
-    .animate-underline::after{
-        content: "";
-        @apply bg-grasshopperGreen-500 absolute transition-all duration-150 h-px w-0 left-0 bottom-0;
-    }
-    .animate-underline:hover::after{
-        @apply w-full;
-    }
 </style>

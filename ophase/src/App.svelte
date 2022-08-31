@@ -52,4 +52,13 @@
     .link > :global(a:hover) {
         text-decoration: none;
     }
+
+
+    .animate-underline::after, a::after{
+        content: "";
+        @apply bg-grasshopperGreen-500 absolute transition-all duration-150 h-px w-0 left-0 bottom-0;
+    }
+    .animate-underline:hover::after, a:hover::after{
+        @apply w-full;
+    }
 </style>
