@@ -1,14 +1,14 @@
 <script lang="ts">
     import BottomNav from "./BottomNav.svelte";
     import Header from "./Header.svelte";
-    export let location: string;
 
-    let headerHeight, footerHeight;
+    let headerHeight=0, footerHeight=0;
+
 </script>
 
-<Header {location} bind:headerHeight />
+<Header bind:headerHeight />
 <div
-    class=" w-full flex justify-center dark:text-white p-7 md:p-10 pt-7 xl:pt-0"
+    class="w-full flex justify-center dark:text-white p-7 md:p-10 pt-7 xl:pt-0"
 >
     <div
         style:margin-top={`${headerHeight}px`}
@@ -19,4 +19,4 @@
     </div>
 </div>
 
-<BottomNav {location} bind:footerHeight />
+<BottomNav bind:footerHeight />

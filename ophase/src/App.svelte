@@ -7,6 +7,7 @@
     import Home from "./lib/components/home/@Home.svelte";
     import NotFound from "./lib/components/notFound/@NotFound.svelte";
     import { darkMode } from "./lib/services/stores";
+    import PageBase from "./lib/components/app/PageBase.svelte";
 
     if (window.matchMedia("(prefers-color-scheme: dark)").matches)
         darkMode.set(true);
@@ -17,30 +18,33 @@
         : document.documentElement.classList.remove("dark");
 </script>
 
-<main class="dark:bg-backgroundDark-500 w-full min-h-screen transition-all duration-200">
+<main
+    class="dark:bg-backgroundDark-500 w-full min-h-screen transition-all duration-200"
+>
     <Router>
-        <Route path="/">
-            <Home />
-        </Route>
-        <Route path="/schedule">
-            <Schedule />
-        </Route>
-        <Route path="/about">
-            <About />
-        </Route>
-        <!-- <Route path="/contact">
+        <PageBase>
+            <Route path="/">
+                <Home />
+            </Route>
+            <Route path="/schedule">
+                <Schedule />
+            </Route>
+            <Route path="/about">
+                <About />
+            </Route>
+            <!-- <Route path="/contact">
             <Home />
         </Route> -->
-        <Route path="/links">
-            <Links />
-        </Route>
-        <Route path="">
-            <NotFound />
-        </Route>
+            <Route path="/links">
+                <Links />
+            </Route>
+            <Route path="">
+                <NotFound />
+            </Route>
+        </PageBase>
     </Router>
 </main>
 
-<!-- TODO: evtl reset scroll bei link, responsiveness -->
 <style global>
     a {
         @apply text-grasshopperGreen-500;
@@ -53,15 +57,17 @@
         text-decoration: none;
     }
 
-
-    .animate-underline, a{
+    .animate-underline,
+    a {
         @apply relative hover:no-underline;
     }
-    .animate-underline::after, a::after{
+    .animate-underline::after,
+    a::after {
         content: "";
         @apply bg-grasshopperGreen-500 absolute transition-all duration-200 h-px w-0 left-0 bottom-0;
     }
-    .animate-underline:hover::after, a:hover::after{
+    .animate-underline:hover::after,
+    a:hover::after {
         @apply w-full;
     }
 </style>

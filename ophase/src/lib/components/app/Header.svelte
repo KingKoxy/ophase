@@ -1,11 +1,8 @@
 <script lang="ts">
-	import { fade } from 'svelte/transition';
     import { get } from "svelte/store";
 
     import Nav from "./TopNav.svelte";
     import { darkMode } from "../../services/stores";
-
-    export let location: string;
 
     export let headerHeight;
 </script>
@@ -37,7 +34,7 @@
                         alt="HIGHtech O-Phasen Logo"
                     />
                 </div>
-                <Nav active={location} />
+                <Nav />
             </div>
 
             <div
