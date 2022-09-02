@@ -47,9 +47,9 @@
                 }}
             >
                 {#if $darkMode}
-                    <img class="absolute left-0 top-0 bottom-0 right-0" transition:fade="{{duration: 200}}" draggable={false} src="/images/moon.svg" alt="Darkmode Icon" />
+                    <img class="absolute left-0 top-0 bottom-0 right-0" draggable={false} src="/images/moon.svg" alt="Darkmode Icon" />
                 {:else}
-                    <img class="absolute  left-0 top-0 bottom-0 right-0" transition:fade="{{duration: 200}}" draggable={false} src="/images/sun.svg" alt="Lightmode Icon" />
+                    <img class="absolute  left-0 top-0 bottom-0 right-0" draggable={false} src="/images/sun.svg" alt="Lightmode Icon" />
                 {/if}
             </div>
         </div>
