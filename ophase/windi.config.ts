@@ -12,6 +12,7 @@ export default defineConfig({
                 grasshopperGreen: {
                     500: '#4ab93d',
                     700: '#37942b',
+                    900: '#1f5d1a'
                 },
                 backgroundDark: {
                     500: '#00040e',
@@ -19,5 +20,7 @@ export default defineConfig({
             },
         },
     },
-    plugins: [],
+    plugins: [
+        require('@windicss/plugin-scrollbar'),
+    ],
 })

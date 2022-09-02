@@ -49,6 +49,7 @@
     a {
         @apply text-grasshopperGreen-500;
     }
+
     a:hover {
         text-decoration: underline;
     }
@@ -69,5 +70,9 @@
     .animate-underline:hover::after,
     a:hover::after {
         @apply w-full;
+    }
+
+    body{
+        @apply scrollbar-thin scrollbar-thumb-grasshopperGreen-700 scrollbar-track-transparent hover:scrollbar-thumb-grasshopperGreen-900;
     }
 </style>
