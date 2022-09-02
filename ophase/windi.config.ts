@@ -19,6 +19,10 @@ export default defineConfig({
                 }
             },
         },
+        
+    },
+    variants: {
+        scrollbar: ['rounded']
     },
     plugins: [
         require('@windicss/plugin-scrollbar'),

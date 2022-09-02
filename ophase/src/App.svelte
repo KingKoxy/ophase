@@ -73,6 +73,6 @@
     }
 
     body{
-        @apply scrollbar-thin scrollbar-thumb-grasshopperGreen-700 scrollbar-track-transparent hover:scrollbar-thumb-grasshopperGreen-900;
+        @apply scrollbar-thin scrollbar-thumb-rounded scrollbar-thumb-grasshopperGreen-700 scrollbar-track-transparent hover:scrollbar-thumb-grasshopperGreen-900;
     }
 </style>
