@@ -180,10 +180,7 @@
 
 <style>
     a {
-        @apply text-grasshopperGreen-500 transition-all duration-200;
-    }
-    a:hover {
-        @apply text-grasshopperGreen-700 no-underline font-semibold;
+        @apply text-grasshopperGreen-500;
     }
 
     li {

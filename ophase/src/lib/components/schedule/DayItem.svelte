@@ -17,7 +17,7 @@
                 <div class="text-base">{event.title}</div>
                 {#if event.locationLink}
                 <div class="text-grasshopperGreen-500">
-                    <a href={event.locationLink} class="hover:no-underline animate-underline relative">{event.location}</a>
+                    <a href={event.locationLink} class="hover:no-underline animate-underline">{event.location}</a>
                 </div>
                 {:else}
                     <p>{event.location}</p>

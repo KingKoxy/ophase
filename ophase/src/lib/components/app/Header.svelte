@@ -7,7 +7,7 @@
 
     export let location: string;
 
-    let headerHeight;
+    export let headerHeight;
 </script>
 
 <div class="fixed w-full flex z-50" bind:clientHeight={headerHeight}>
@@ -18,7 +18,7 @@
             src="images/logo.svg"
             type="image/svg+xml"
             class="object-contain w-full h-full"
-            alt="HIGHtech O-Phasen Logo"
+            alt="HiGHtech O-Phasen Logo"
         />
     </div>
     <header class="flex-grow">
@@ -52,4 +52,3 @@
         </div>
     </header>
 </div>
-<div style:height={`${headerHeight}px`} />
