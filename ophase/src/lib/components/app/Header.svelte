@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { MoonIcon, SunIcon } from "svelte-feather-icons";
+	import { fade } from 'svelte/transition';
     import { get } from "svelte/store";
 
     import Nav from "./TopNav.svelte";
@@ -10,7 +10,10 @@
     export let headerHeight;
 </script>
 
-<div class="fixed w-full flex z-50" bind:clientHeight={headerHeight}>
+<div
+    class="fixed w-full flex z-50 select-none"
+    bind:clientHeight={headerHeight}
+>
     <div
         class="md:block hidden bg-grasshopperGreen-700 p-2 rounded-br-xl w-[280px] h-[140px] object-cover z-20 shadow-lg shadow-black/30"
     >
@@ -38,15 +41,15 @@
             </div>
 
             <div
-                class="flex items-center"
+                class="flex items-center relative h-[24px] w-[24px] cursor-pointer"
                 on:click={() => {
                     darkMode.set(!get(darkMode));
                 }}
             >
                 {#if $darkMode}
-                    <MoonIcon />
+                    <img class="absolute left-0 top-0 bottom-0 right-0" transition:fade="{{duration: 200}}" draggable={false} src="/images/moon.svg" alt="Darkmode Icon" />
                 {:else}
-                    <SunIcon />
+                    <img class="absolute  left-0 top-0 bottom-0 right-0" transition:fade="{{duration: 200}}" draggable={false} src="/images/sun.svg" alt="Lightmode Icon" />
                 {/if}
             </div>
         </div>

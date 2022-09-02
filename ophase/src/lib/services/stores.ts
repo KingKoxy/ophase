@@ -4,7 +4,7 @@ export let darkMode = writable(false);
 
 export const PAGES = {
     "/": "Home",
-    "/schedule": "Zeitplan",
+    // "/schedule": "Zeitplan",
     "/about": "Über uns",
     // "/contact": "Kontakt",
     "/links": "Links",
