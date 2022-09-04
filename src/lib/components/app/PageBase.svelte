@@ -13,7 +13,7 @@
   <div
     style:margin-top={`${headerHeight}px`}
     style:margin-bottom={`${footerHeight}px`}
-    class="xl:w-[60%] w-full"
+    class="xl:w-[55%] w-full"
   >
     <slot />
   </div>
