@@ -1,6 +1,6 @@
 <script lang="ts">
   import { PAGES } from "@/services/stores";
-  import NavLink from "@/components/app/TopNavLink.svelte";
+  import NavLink from "@/components/app/nav/TopNavLink.svelte";
 </script>
 
 <div class="text-lg sm:block hidden">

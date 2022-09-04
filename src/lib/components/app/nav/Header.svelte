@@ -2,7 +2,7 @@
 <script lang="ts">
   import { get } from "svelte/store";
 
-  import Nav from "@/components/app/TopNav.svelte";
+  import Nav from "@/components/app/nav/TopNav.svelte";
   import { darkMode } from "@/services/stores";
 
   export let headerHeight: number;

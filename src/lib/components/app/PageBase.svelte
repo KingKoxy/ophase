@@ -1,6 +1,6 @@
 <script lang="ts">
-  import BottomNav from "@/components/app/BottomNav.svelte";
-  import Header from "@/components/app/Header.svelte";
+  import BottomNav from "@/components/app/nav/BottomNav.svelte";
+  import Header from "@/components/app/nav/Header.svelte";
 
   let headerHeight = 0,
     footerHeight = 0;

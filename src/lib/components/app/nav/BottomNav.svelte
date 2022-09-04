@@ -1,7 +1,7 @@
 <script lang="ts">
   import { PAGES } from "@/services/stores";
 
-  import BottomNavLink from "@/components/app/BottomNavLink.svelte";
+  import BottomNavLink from "@/components/app/nav/BottomNavLink.svelte";
 
   export let footerHeight: number;
 </script>

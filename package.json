@@ -38,7 +38,12 @@
     "vite": "^3.0.7",
     "vite-plugin-windicss": "^1.8.7",
     "windicss": "^3.5.6",
-    "@storybook/addon-svelte-csf": "^2.0.7"
+    "@storybook/addon-svelte-csf": "^2.0.7",
+    "contentful": "^9.1.34",
+    "gql": "^1.1.2",
+    "apollo": "^2.34.0",
+    "svelte-apollo": "^0.5.0",
+    "@apollo/client": "^3.6.9"
   },
   "dependencies": {}
 }
