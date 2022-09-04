@@ -1,8 +1,14 @@
-import {defineConfig} from 'vite'
-import {svelte} from '@sveltejs/vite-plugin-svelte'
+import { fileURLToPath, URL } from "url";
+import { defineConfig } from "vite";
+import { svelte } from "@sveltejs/vite-plugin-svelte";
 import WindiCSS from "vite-plugin-windicss";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [svelte(), WindiCSS()]
-})
+  plugins: [svelte(), WindiCSS()],
+  resolve: {
+    alias: {
+      "@": fileURLToPath(new URL("./src/lib", import.meta.url)),
+    },
+  },
+});

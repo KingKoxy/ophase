@@ -1,3 +1,28 @@
-a{
+a {
     @apply text-grasshopperGreen-500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link > :global(a:hover) {
+    text-decoration: none;
+}
+
+a {
+    @apply relative hover:no-underline text-grasshopperGreen-500;
+}
+
+a::after {
+    content: "";
+    @apply bg-grasshopperGreen-500 absolute transition-all duration-200 h-px w-0 left-0 bottom-0;
+}
+
+a:hover::after {
+    @apply w-full;
+}
+
+body {
+    @apply scrollbar-thin scrollbar-thumb-rounded scrollbar-thumb-grasshopperGreen-700 scrollbar-track-transparent hover:scrollbar-thumb-grasshopperGreen-900;
 }
