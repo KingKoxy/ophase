@@ -1,5 +1,4 @@
 <script>
-    import PageBase from "../app/PageBase.svelte";
     import Headline from "../app/Headline.svelte";
 </script>
 

@@ -1,5 +1,4 @@
 <script lang="ts">
-    import PageBase from "../app/PageBase.svelte";
     import { SCHEDULE } from "../../services/schedule";
 
     import DayItem from "./DayItem.svelte";

@@ -10,7 +10,7 @@
 
     export let url, name: string;
     let active = false;
-    function getProps({ location, href, isPartiallyCurrent, isCurrent }) {
+    function getProps({ isCurrent }) {
         // The object returned here is spread on the anchor element's attributes
         active = isCurrent;
         return {};

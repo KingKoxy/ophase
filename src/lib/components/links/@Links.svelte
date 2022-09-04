@@ -1,6 +1,5 @@
 <script>
     import Headline from "../app/Headline.svelte";
-    import PageBase from "../app/PageBase.svelte";
 </script>
 
 <Headline>Links</Headline>
@@ -34,7 +33,7 @@
             etc.
         </li>
         <li>
-            <a href="http://www.kit.edu/campusplan/">Karte</a> für den Campus
+            <a href="https://www.kit.edu/campusplan/">Karte</a> für den Campus
             mit Gebäudenummern (als App:
             <a href="https://apps.apple.com/us/app/kit-navigator/id526682303"
                 >Apple</a
