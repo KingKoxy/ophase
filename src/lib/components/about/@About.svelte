@@ -33,7 +33,7 @@
       <img
         src="images/Bild_Wandern_vorerst.jpg"
         alt="Gruppenfoto"
-        class="md:float-right md:h-[260px] md:ml-4 md:mb-0 mb-5 w-full md:w-auto"
+        class="md:float-right md:h-[250px] md:ml-4 md:mb-2 mb-5 w-full md:w-auto"
       />
       Wir sind sehr stolz darauf als eine der einzigen O-Phasengruppen uns nicht
       nur auf die O-Phase zu beschränken. Unsere Gruppe bietet dir einen breit gefächerten
